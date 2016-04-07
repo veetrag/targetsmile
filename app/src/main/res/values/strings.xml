@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Target Smile</string>
+    <string name="step1_brushing">Move brush from top to bottom</string>
+    <string name="step2_brushing">Move brush in circular motion</string>
+    <string name="step3_brushing">Move brush back and forth</string>
+    <string name="step4_brushing">Move brush in and out</string>
+
+    <string name="location_top_left">Upper Left (chewing surface)</string>
+    <string name="location_bottom_left">Lower Left (chewing surface)</string>
+    <string name="location_top_right">Upper Right (chewing surface)</string>
+    <string name="location_bottom_right">Lower Right (chewing surface)</string>
+    <string name="location_front_top">Upper Front (inner surface)</string>
+    <string name="location_front_bottom">Lower Front (inner surface)</string>
+    <string name="location_front_outside_sufrace">Front (outer surface)</string>
+    <string name="location_front_inside_sufrace">Front (inner surface)</string>
+    <string name="location_left">Left (upper and lower)</string>
+    <string name="location_right">Right (upper and lower)</string>
+
+    <string name="title_activity_night_brushing">Set Reminder</string>
+
+    <string name="title_activity_start">Target Smile</string>
+
+    <string name="title_activity_brushing_technique">Brushing Technique</string>
+    <string name="title_activity_dental_facts">Dental Facts</string>
+    <string name="title_activity_home_remedies">Home Remedies</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3809140250739395/7086016063</string>
+
+
+
+    <string name="badbreath"><Data><![CDATA[ <h1>Bad Breath</h1><br>
+<p>&#8226; Brush and floss your teeth twice daily.</p>
+<p>&#8226; Brush your tongue with the tongue scraper.</p>
+<p>&#8226; Eat plenty of citrus fruits like lemon, oranges, amla etc.</p>
+<p>&#8226; Prevent dry mouth by using sugar-free chewing gums, lozenges, mints.</p>
+<p>&#8226; Brushing teeth with baking soda helps neutralize excess acid found in oral cavity so reduces bad breath.</p>
+]]> </Data></string>
+
+    <string name="sensitivity"><Data><![CDATA[ <b>Sensitivity</b><br>
+<p>&#8226; Apply desensitizing paste on the affected teeth with your fingertips after normal brushing and leave it for 5 min, then rinse with water. Repeat this two times per day.</p>
+<p>&#8226; Have low acidic diet e.g. Banana, apples, rice, almonds etc.</p>
+<p>&#8226; Avoid horizontal brushing and use vertical brushing technique.</p> ]]> </Data></string>
+
+    <string name="oralulcers"><Data><![CDATA[ <b>Oral Ulcers</b><br>
+<p>&#8226; Apply glycerine or ghee on ulcers.</p>
+<p>&#8226; Eat more of fresh fruits mainly oranges, pomegranate, amla etc.</p>
+<p>&#8226; Drink cold milk which neutralizes acids.</p>
+<p>&#8226; Have vitamin B complex tablets once daily.</p>
+<p>&#8226; Avoid unnecessary painkillers.</p> ]]> </Data></string>
+
+    <string name="toothache"><Data><![CDATA[ <b>Tooth Ache</b><br>
+<p>&#8226; Clean the cavity with a toothpick to remove the entrapped food particles. </p>
+<p>&#8226; Do salt water gargling with lukewarm water. </p>
+<p>&#8226; Holding a clove underneath that tooth will relieve pain temporarily. </p>
+<p>&#8226; Avoid smoking, drinking alcohol, pricking by needles and pins etc. </p> ]]> </Data></string>
+
+    <string name="stainedteeth"><Data><![CDATA[ <b>Stained Teeth</b><br>
+<p>&#8226; Brush your teeth twice daily.</p>
+<p>&#8226; Don’t have more than 2 cups of coffee or tea in a day.</p>
+<p>&#8226; Avoid smoking, drinking alcohol.</p>
+<p>&#8226; Don’t use mouthwash in full concentration, dilute it with water.</p>
+<p>&#8226; Visit your dentist every six months for proper teeth cleaning.</p> ]]> </Data></string>
+
+    <string name="bleedinggums"><Data><![CDATA[ <b>Bleeding Gums</b><br>
+<p>&#8226; Apply clove oil on affected gums.</p>
+<p>&#8226; Apply aloe vera gel on affected gums.</p>
+<p>&#8226; Salt water gargling twice daily will help reduce bleeding gums.</p>
+<p>&#8226; Eat more of citrus fruits like lemon, oranges, amla and fresh vegetables.</p> ]]> </Data></string>
+
+
+
+<string name="generalcare"><Data><![CDATA[ <b>General Care</b><br>
+    <p>&#8226; Brush your teeth twice daily - morning and night.</p>
+    <p>&#8226; After brushing clean your tongue with a tongue scraper.</p>
+    <p>&#8226; Brushing only cleans 60% of surfaces, so use floss to clean rest of area.</p>
+    <p>&#8226; Use mouthwash after diluting it with water, mouthwash contains some antibacterial agents which prevent gum problems and fluoride helps to prevent decay.</p>
+    <p>&#8226; Maintain healthy diet containing green vegetables and fresh fruits.</p>
+    <p>&#8226; Avoid acidic drinks and beverages, such as soft drinks.</p>
+    <p>&#8226; Avoid smoking, drinking and chewing tobacco.</p>
+    <p>&#8226; Visit your dentist every 6 months for a complete checkup.</p>
+]]> </Data></string>
+
+
+<string name="foodlodgement"><Data><![CDATA[ <b>Food Lodgement</b><br>
+<p>&#8226; Brush and rinse your teeth thoroughly immediately after food.</p>
+<p>&#8226; Avoid horizontal brushing and use vertical brushing technique.  </p>
+<p>&#8226; Interdental flossing provides fast relief.</p>
+
+]]> </Data></string>
+
+    <string name="cavity"><Data><![CDATA[ <b>Cavity</b><br>
+    <p>&#8226; Dilute 2-3 drops of clove(laung) oil with ¼ of sesame(til) oil. Put few drops of oil on a cotton ball and dab the solution on the affected tooth.</p>
+<p>&#8226; Dissolve 1 tsp of salt  in one glass of warm water. Use this solution to rinse for 1 min, concentrating on the affected teeth. Follow this treatment 3 times daily until symptoms subside. </p>
+<p>&#8226; See your dentist.</p>
+
+
+]]> </Data></string>
+
+
+    <string name="restrictedmouthopening"><Data><![CDATA[ <b>Restricited Mouth Opening</b><br>
+    <p>&#8226; Eat plenty of vitamin-rich foods like carrots, oranges, mangoes, spinach, tomatoes etc.</p>
+<p>&#8226; Stretch your mouth by piling ice-cream sticks between teeth.</p>
+<p>&#8226; Avoid unnecessary painkillers.</p>
+<p>&#8226; If you smoke or use betel nut, quit immediately.</p>
+
+]]> </Data></string>
+
+
+    <string name="nightbrushingfact">Brushing at night reduced your chance of getting a heart attack.</string>
+    <string name="title_activity_consultation">ConsultationActivity</string>
+
+
+</resources>

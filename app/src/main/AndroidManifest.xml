@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.targetsmile.dentalcare">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activities.StartActivity"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BrushingTechniqueActivity"
+            android:label="@string/title_activity_brushing_technique"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.NightBrushingActivity"
+            android:label="@string/title_activity_night_brushing"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".reminderservice.BrushingReminderService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver android:name=".reminderservice.BrushingReminderAlarmReceiver" />
+        <receiver
+            android:name=".reminderservice.BrushingReminderBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".reminderservice.BrushingReminderAppUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data
+                    android:path="com.targetsmile.dentalcare"
+                    android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activities.AlarmRinging" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".activities.DentalFact"
+            android:label="@string/title_activity_dental_facts" />
+        <activity
+            android:name=".activities.FactsGrid"
+            android:label="@string/title_activity_dental_facts" />
+        <activity
+            android:name=".activities.HomeRemediesActivity"
+            android:label="@string/title_activity_home_remedies" />
+        <activity
+            android:name=".activities.HomeRemedyDetails"
+            android:label="@string/title_activity_home_remedies" />
+
+
+
+        <service
+            android:name=".DownloadFactsLinkService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activities.ConsultationActivity" android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"></activity>
+
+        <meta-data
+            android:name="apptentive_api_key"
+            android:value="398b55c6880f91da332980be69a9c9ad2d7bc0c2b96f97dd1c9c1bb8a0e91536" />
+
+        <activity
+            android:name="com.apptentive.android.sdk.ViewActivity"
+            android:theme="@style/ApptentiveTheme"  />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_id": "target-smile",
+    "project_number": "848402100601",
+    "name": "Target Smile"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848402100601:android:ef93d49530b5ade3",
+        "client_id": "android:com.targetsmile.app",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.targetsmile.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848402100601-hgq8e4mmdtfe0hdrilp0m2e5ai2g5r22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.targetsmile.app",
+            "certificate_hash": "CCA71058D214BC1CCD9D94D4F0E18CECEA153A28"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848402100601:android:b9c25b522e816458",
+        "client_id": "android:app.targetsmile.com.targetsmile",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "app.targetsmile.com.targetsmile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848402100601-1i126ls94bicutge013iei0g0r6impci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.targetsmile.com.targetsmile",
+            "certificate_hash": "CCA71058D214BC1CCD9D94D4F0E18CECEA153A28"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848402100601:android:6fa64923f00144b0",
+        "client_id": "android:com.targetsmile.dentalcare",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.targetsmile.dentalcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-73200584-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

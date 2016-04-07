@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".activities.BrushingTechniqueActivity"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/brushingBackgroundImage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bluesunrise"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Start Brushing"
+        android:id="@+id/startButton"
+        android:onClick="startBrushing"
+        android:background="@drawable/abc_btn_colored_material"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:padding="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageViewStep1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/step1"
+        android:layout_below="@+id/messageTextView"
+        android:layout_alignParentStart="true"
+        android:alpha="0" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageViewStep2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/step2"
+        android:alpha="0"
+        android:layout_below="@+id/messageTextView"
+        android:layout_alignParentStart="true"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageViewStep3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/step3"
+        android:alpha="0"
+        android:layout_below="@+id/messageTextView"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageViewStep4"
+        android:src="@drawable/step4"
+        android:alpha="0"
+        android:layout_below="@+id/messageTextView"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/positionTextView"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageViewStep1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/messageTextView"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/progressBar"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/timerTextView"
+            android:layout_alignLeft="@id/progressBar"
+            android:layout_alignRight="@id/progressBar"
+            android:layout_alignTop="@id/progressBar"
+            android:layout_alignBottom="@id/progressBar"
+            android:text="2:00"
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/finalImageView"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/greatjob"-->
+        <!--android:alpha="0" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalTextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Great Job!"
+        android:textSize="80sp"
+        android:textColor="#000"
+        android:textAlignment="center"
+
+
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backButton"
+        android:layout_below="@+id/finalTextView"
+        android:alpha="0"
+        android:onClick="goBack"
+        android:background="@drawable/roundshapeutton"
+        android:height="100dp"
+        android:width="100dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:id="@+id/restartButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:onClick="restartBrushing" />
+
+
+</RelativeLayout>

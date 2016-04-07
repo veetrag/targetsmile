@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".activities.NightBrushingActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        card_view:cardElevation="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageViewNightBrushing"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bed"
+             />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alaramStatusTextView"
+                android:textAlignment="center"
+                android:textColor="#000"
+            android:padding="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+            android:textSize="42sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <TimePicker
+        android:id="@+id/timePickerForReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alaramStatusTextView"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Set Reminder"
+            android:id="@+id/button"
+            android:onClick="setAlarm"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="@drawable/abc_btn_colored_material" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Cancel Reminder"
+            android:id="@+id/cancelButton"
+            android:onClick="cancelAlarm"
+            android:backgroundTint="#d59090"
+            android:textColor="#fff"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+
+</LinearLayout>
